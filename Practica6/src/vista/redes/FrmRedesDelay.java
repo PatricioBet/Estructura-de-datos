@@ -262,7 +262,7 @@ public class FrmRedesDelay extends javax.swing.JFrame {
         try {
             textA.setText(f.implementar());
         } catch (Exception ex) {
-            JOptionPane.showMessageDialog(null, "No se a encontrado un camino");
+            //JOptionPane.showMessageDialog(null, "No se a encontrado un camino");
         }
                 break;
             case 1:
