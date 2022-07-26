@@ -257,15 +257,15 @@ public class FrmRedesDelay extends javax.swing.JFrame {
 
     private void btnBuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarActionPerformed
         switch (cbxMetodo.getSelectedIndex()) {
-            case 1:
+            case 0:
                 floyd f = new floyd(dgc);
         try {
             textA.setText(f.implementar());
         } catch (Exception ex) {
-            Logger.getLogger(FrmRedesDelay.class.getName()).log(Level.SEVERE, null, ex);
+            JOptionPane.showMessageDialog(null, "No se a encontrado un camino");
         }
                 break;
-            case 2:
+            case 1:
                 
                 break;
             default:
